@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+body{
+    background-image: url(./imagens_banido/ben-adendorff-xmenclonewarslevelartstatio.gif);
+    background-repeat: no-repeat;
+    background-size: 100%    
+
+}
+
+
+nav.menu-lateral{
+    width: 80px;
+    height: 100%;
+    padding: 100px 0px 80px 1%;
+    box-shadow: 3px 1px 1px red;
+    overflow: hidden;
+    transition: .3s;
+    opacity: 1;
+    
+}
+nav.menu-lateral:hover{
+    width: 300px
+}
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+}
+.btn-expandir > i{
+    color: aqua;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+ul li.item-menu{
+    transition: .1s;
+}
+ul li.item-menu:hover{
+    background-color: cadetblue;
+}
+ul li.item-menu a{
+    color: brown;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+}
+ul li.item-menu a .txt-link{
+    margin-left: 20px;
+}
+ul li.item-menu a.icon{
+    font-size: 30px;
+}
+form{
+    padding: 0px 1000px 1000px 800px;
+    margin: auto;
+    font-style: italic;
+    
+   
+    
+}
+form div + div{
+    margin-top: 0%;
+
+}
